@@ -1,6 +1,6 @@
 function removeShopDelivery(id) {
     $.ajax({
-        url: '/ajaxs/removeshopdelivery',
+        url: '/ajax/removeshopdelivery',
         method: "POST",
         data: {id: id},
         success: function (data) {
